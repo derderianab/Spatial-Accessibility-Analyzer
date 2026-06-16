@@ -14,12 +14,26 @@ The analysis utilizes:
 
 The project aims to generate a spatial accessibility surface representing accessibility levels across a study area based on proximity to one or more categories of facilities.
 
+Example use:
+To identify areas located far from emergency response facilities in Bandung City, including hospitals, fire stations, police stations, and Regional Disaster Management Agency (BPBD) offices.
+
+The user-defined priority order of facility categories is:
+1. Hospitals
+2. Fire Stations
+3. Police Stations
+4. Regional Disaster Management Agency Offices
+
 Custom POIs with user-defined categories used in the accessibility analysis
 <p align="center">
   <img src="assets/custom_poi.jpeg" width="600"/>
 </p>
 
-Accessibility map aggregated into 250 m grid cells using the median accessibility value of all nodes within each grid
+AHP pairwise comparison used to determine the relative importance of facility categories
+<p align="center">
+  <img src="assets/ahp_pairwise_comparison.jpeg" width="600"/>
+</p>
+
+Accessibility map aggregated into 250 m grid cells based on node accessibility values
 <p align="center">
   <img src="assets/result_grid.jpeg" width="600"/>
 </p>
