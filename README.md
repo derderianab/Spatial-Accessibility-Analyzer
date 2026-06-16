@@ -12,7 +12,7 @@ The analysis utilizes:
 * network-based shortest path analysis using NetworkX,
 * and GeoPandas-based spatial processing and grid aggregation.
 
-The project aims to generate a spatial accessibility surface representing accessibility levels across a study area based on proximity to one or more categories of facilities.
+The project aims to generate a spatial accessibility surface representing accessibility levels across a project area based on proximity to one or more categories of facilities.
 
 Example use:
 To identify areas located far from emergency response facilities in Bandung City, including hospitals, fire stations, police stations, and Regional Disaster Management Agency (BPBD) offices.
